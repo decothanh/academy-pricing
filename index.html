@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Richness Trader Academy - Chương trình Đào tạo Trading & Capital Management Chuyên nghiệp</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .table-header { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+        .module-row:hover { background-color: #f8fafc; transform: translateY(-1px); transition: all 0.2s; }
+        .price-tag { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+        .combo-card { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="gradient-bg text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl font-bold mb-4">
+                <i class="fas fa-chart-line mr-3"></i>
+                The Richness Trader Academy
+            </h1>
+            <p class="text-xl opacity-90 mb-6">Chương trình Đào tạo Trading & Capital Management Chuyên nghiệp</p>
+            <div class="flex justify-center space-x-8 text-sm">
+                <div class="flex items-center">
+                    <i class="fas fa-users mr-2"></i>
+                    <span>500+ Học viên</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-trophy mr-2"></i>
+                    <span>85% Tỷ lệ thành công</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-clock mr-2"></i>
+                    <span>300+ Giờ học</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container mx-auto px-6 py-12">
+        <!-- Overview -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
+                    <i class="fas fa-info-circle mr-3 text-blue-600"></i>
+                    Tổng quan chương trình
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="text-center p-4 bg-blue-50 rounded-lg">
+                        <div class="text-2xl font-bold text-blue-600">20</div>
+                        <div class="text-sm text-gray-600">Học phần</div>
+                    </div>
+                    <div class="text-center p-4 bg-green-50 rounded-lg">
+                        <div class="text-2xl font-bold text-green-600">4</div>
+                        <div class="text-sm text-gray-600">Khối chuyên môn</div>
+                    </div>
+                    <div class="text-center p-4 bg-purple-50 rounded-lg">
+                        <div class="text-2xl font-bold text-purple-600">5</div>
+                        <div class="text-sm text-gray-600">Combo package</div>
+                    </div>
+                    <div class="text-center p-4 bg-orange-50 rounded-lg">
+                        <div class="text-2xl font-bold text-orange-600">300+</div>
+                        <div class="text-sm text-gray-600">Giờ đào tạo</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- KHỐI 1: CƠ SỞ HẠNG MỤC -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="table-header text-white p-6">
+                    <h2 class="text-2xl font-bold flex items-center">
+                        <i class="fas fa-foundation mr-3"></i>
+                        KHỐI 1: CƠ SỞ HẠNG MỤC (FOUNDATION MODULES)
+                    </h2>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full">
+                        <thead class="bg-gray-100">
+                            <tr class="text-left">
+                                <th class="px-6 py-4 font-semibold text-gray-700">Mã HP</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Tên Học Phần</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Giá (VNĐ)</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Thời lượng</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Điều kiện tiên quyết</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Define of Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="module-row border-b">
+                                <td class="px-6 py-4 font-mono font-bold text-blue-600">FT001</td>
+                                <td class="px-6 py-4">
+                                    <div class="font-semibold">Hướng dẫn sử dụng Exness cơ bản</div>
+                                    <div class="text-sm text-gray-600 mt-1">Hướng dẫn tạo tài khoản, nạp rút tiền, cấp vốn đầu tư, các loại tài khoản, spread, leverage, phí giao dịch</div>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="price-tag text-white px-3 py-1 rounded-full text-sm font-semibold">2,000,000</span>
+                                </td>
+                                <td class="px-6 py-4 text-center">8 giờ</td>
+                                <td class="px-6 py-4 text-center">
+                                    <span class="bg-gray-100 px-2 py-1 rounded text-sm">Không</span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <ul class="text-sm space-y-1">
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Tạo được tài khoản Exness hoàn chỉnh</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Nạp/rút tiền thành thạo</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Hiểu rõ cơ chế cấp vốn và leverage</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Tính toán được chi phí giao dịch</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="module-row border-b">
+                                <td class="px-6 py-4 font-mono font-bold text-blue-600">FT002</td>
+                                <td class="px-6 py-4">
+                                    <div class="font-semibold">Thành thạo MT5 cơ bản</div>
+                                    <div class="text-sm text-gray-600 mt-1">Cài đặt MT5, giao diện, đặt lệnh, đóng lệnh, xem lịch sử, các loại lệnh market/pending, SL/TP</div>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="price-tag text-white px-3 py-1 rounded-full text-sm font-semibold">2,500,000</span>
+                                </td>
+                                <td class="px-6 py-4 text-center">12 giờ</td>
+                                <td class="px-6 py-4 text-center">
+                                    <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm">FT001</span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <ul class="text-sm space-y-1">
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Sử dụng thành thạo giao diện MT5</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Đặt/đóng lệnh chính xác 100%</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Thiết lập SL/TP hiệu quả</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Theo dõi P&L realtime</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="module-row border-b">
+                                <td class="px-6 py-4 font-mono font-bold text-blue-600">FT003</td>
+                                <td class="px-6 py-4">
+                                    <div class="font-semibold">Trading trên Binance</div>
+                                    <div class="text-sm text-gray-600 mt-1">Tạo tài khoản Binance, KYC, nạp tiền, chuyển tiền, đổi tiền, spot trading, futures cơ bản</div>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="price-tag text-white px-3 py-1 rounded-full text-sm font-semibold">2,000,000</span>
+                                </td>
+                                <td class="px-6 py-4 text-center">8 giờ</td>
+                                <td class="px-6 py-4 text-center">
+                                    <span class="bg-gray-100 px-2 py-1 rounded text-sm">Không</span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <ul class="text-sm space-y-1">
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Hoàn thành KYC Binance</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Thực hiện giao dịch spot/futures</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Chuyển đổi tiền tệ thành thạo</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Quản lý ví crypto cơ bản</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="module-row border-b">
+                                <td class="px-6 py-4 font-mono font-bold text-blue-600">FT004</td>
+                                <td class="px-6 py-4">
+                                    <div class="font-semibold">Tái thiết tư duy và lối sống Trader</div>
+                                    <div class="text-sm text-gray-600 mt-1">Xây dựng thói quen hàng ngày, quản lý thời gian, tăng cường sự tỉnh táo, thiền định, thể dục cho trader</div>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="price-tag text-white px-3 py-1 rounded-full text-sm font-semibold">3,500,000</span>
+                                </td>
+                                <td class="px-6 py-4 text-center">15 giờ</td>
+                                <td class="px-6 py-4 text-center">
+                                    <span class="bg-gray-100 px-2 py-1 rounded text-sm">Không</span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <ul class="text-sm space-y-1">
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Có lịch trình hàng ngày tối ưu</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Duy trì được trạng thái tỉnh táo 4-6 giờ</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Kỹ năng quản lý stress</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Thói quen sống khỏe mạnh ổn định</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- KHỐI 2: KỸ THUẬT NÂNG CAO -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-gradient-to-r from-purple-600 to-purple-800 text-white p-6">
+                    <h2 class="text-2xl font-bold flex items-center">
+                        <i class="fas fa-cogs mr-3"></i>
+                        KHỐI 2: KỸ THUẬT NÂNG CAO (ADVANCED TECHNICAL)
+                    </h2>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full">
+                        <thead class="bg-gray-100">
+                            <tr class="text-left">
+                                <th class="px-6 py-4 font-semibold text-gray-700">Mã HP</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Tên Học Phần</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Giá (VNĐ)</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Thời lượng</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Điều kiện tiên quyết</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Define of Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="module-row border-b">
+                                <td class="px-6 py-4 font-mono font-bold text-purple-600">AT001</td>
+                                <td class="px-6 py-4">
+                                    <div class="font-semibold">MT5 Advanced & Bot Trading</div>
+                                    <div class="text-sm text-gray-600 mt-1">Expert Advisor, script, indicator tùy chỉnh, position sizer bot, trailing stop bot, cảnh báo tự động</div>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="price-tag text-white px-3 py-1 rounded-full text-sm font-semibold">6,000,000</span>
+                                </td>
+                                <td class="px-6 py-4 text-center">20 giờ</td>
+                                <td class="px-6 py-4 text-center">
+                                    <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm">FT002</span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <ul class="text-sm space-y-1">
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Cài đặt và sử dụng EA cơ bản</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Tạo được position sizer tự động</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Thiết lập trailing stop bot</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Hệ thống cảnh báo qua email/telegram</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="module-row border-b">
+                                <td class="px-6 py-4 font-mono font-bold text-purple-600">AT002</td>
+                                <td class="px-6 py-4">
+                                    <div class="font-semibold">Quản trị rủi ro chuyên nghiệp</div>
+                                    <div class="text-sm text-gray-600 mt-1">Risk/Reward, position sizing, MDL, drawdown, correlation, portfolio risk, stress testing</div>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="price-tag text-white px-3 py-1 rounded-full text-sm font-semibold">8,000,000</span>
+                                </td>
+                                <td class="px-6 py-4 text-center">25 giờ</td>
+                                <td class="px-6 py-4 text-center">
+                                    <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm">FT001, FT002</span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <ul class="text-sm space-y-1">
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Tính toán position size chính xác 100%</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Thiết lập MDL hiệu quả</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Quản lý được portfolio risk</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Stress test được hệ thống</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="module-row border-b">
+                                <td class="px-6 py-4 font-mono font-bold text-purple-600">AT003</td>
+                                <td class="px-6 py-4">
+                                    <div class="font-semibold">Hệ thống giao dịch 4 bước</div>
+                                    <div class="text-sm text-gray-600 mt-1">Quy trình phân tích, timing entry, quản lý lệnh, cải tiến hiệu quả. Xây dựng hệ thống cá nhân</div>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="price-tag text-white px-3 py-1 rounded-full text-sm font-semibold">10,000,000</span>
+                                </td>
+                                <td class="px-6 py-4 text-center">30 giờ</td>
+                                <td class="px-6 py-4 text-center">
+                                    <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm">AT002</span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <ul class="text-sm space-y-1">
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Có hệ thống giao dịch hoàn chỉnh</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Backtest được 200+ setup</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Win rate ổn định >55%</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>R/R trung bình >1.5:1</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- KHỐI 3: CHUYÊN NGÀNH TRADER -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-gradient-to-r from-green-600 to-green-800 text-white p-6">
+                    <h2 class="text-2xl font-bold flex items-center">
+                        <i class="fas fa-chart-bar mr-3"></i>
+                        KHỐI 3: CHUYÊN NGÀNH TRADER (TRADER SPECIALIZATION)
+                    </h2>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full">
+                        <thead class="bg-gray-100">
+                            <tr class="text-left">
+                                <th class="px-6 py-4 font-semibold text-gray-700">Mã HP</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Tên Học Phần</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Giá (VNĐ)</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Thời lượng</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Điều kiện tiên quyết</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Define of Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="module-row border-b">
+                                <td class="px-6 py-4 font-mono font-bold text-green-600">TR001</td>
+                                <td class="px-6 py-4">
+                                    <div class="font-semibold">Phân tích kỹ thuật DC7 Method</div>
+                                    <div class="text-sm text-gray-600 mt-1">Cấu trúc ABCD, Volume Profile, Key Level, sóng đẩy/hồi, kiệt sức, trap, các pattern đảo chiều</div>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="price-tag text-white px-3 py-1 rounded-full text-sm font-semibold">12,000,000</span>
+                                </td>
+                                <td class="px-6 py-4 text-center">35 giờ</td>
+                                <td class="px-6 py-4 text-center">
+                                    <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm">AT003</span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <ul class="text-sm space-y-1">
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Nhận diện chính xác cấu trúc ABCD</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Sử dụng thành thạo Volume Profile</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Tìm được setup A+ hàng ngày</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Độ chính xác phân tích >70%</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="module-row border-b">
+                                <td class="px-6 py-4 font-mono font-bold text-green-600">TR002</td>
+                                <td class="px-6 py-4">
+                                    <div class="font-semibold">X2 Framework thực chiến</div>
+                                    <div class="text-sm text-gray-600 mt-1">Kế hoạch x2 trong 30 ngày, quản trị vốn theo zone, tái cấp vốn, scaling up an toàn</div>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="price-tag text-white px-3 py-1 rounded-full text-sm font-semibold">15,000,000</span>
+                                </td>
+                                <td class="px-6 py-4 text-center">40 giờ</td>
+                                <td class="px-6 py-4 text-center">
+                                    <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm">TR001</span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <ul class="text-sm space-y-1">
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Thực hiện thành công x2 trên demo</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Quản lý được vốn theo 6 zone</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Kỹ năng scaling up an toàn</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Kế hoạch tăng trưởng dài hạn</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="module-row border-b">
+                                <td class="px-6 py-4 font-mono font-bold text-green-600">TR003</td>
+                                <td class="px-6 py-4">
+                                    <div class="font-semibold">Tâm lý & Kỷ luật giao dịch</div>
+                                    <div class="text-sm text-gray-600 mt-1">Kiểm soát cảm xúc, FOMO, revenge trading, ghi nhật ký, đánh giá bản thân, stress management</div>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="price-tag text-white px-3 py-1 rounded-full text-sm font-semibold">8,000,000</span>
+                                </td>
+                                <td class="px-6 py-4 text-center">25 giờ</td>
+                                <td class="px-6 py-4 text-center">
+                                    <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm">AT003</span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <ul class="text-sm space-y-1">
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Kiểm soát được cảm xúc trong trading</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Ghi nhật ký giao dịch đầy đủ</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Tự đánh giá và cải tiến liên tục</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Không còn revenge trading</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="module-row border-b">
+                                <td class="px-6 py-4 font-mono font-bold text-green-600">TR004</td>
+                                <td class="px-6 py-4">
+                                    <div class="font-semibold">17 Bài tập thực chiến</div>
+                                    <div class="text-sm text-gray-600 mt-1">Thực hành từ demo đến real money, từ $100 đến $2000, đánh giá hiệu suất, tối ưu hóa hệ thống</div>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="price-tag text-white px-3 py-1 rounded-full text-sm font-semibold">10,000,000</span>
+                                </td>
+                                <td class="px-6 py-4 text-center">50 giờ</td>
+                                <td class="px-6 py-4 text-center">
+                                    <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm">TR001, TR003</span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <ul class="text-sm space-y-1">
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Hoàn thành 17 bài test</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Chuyển đổi thành công sang real money</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Tỷ lệ thành công >80% bài tập</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Sẵn sàng trade với vốn lớn</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="module-row border-b">
+                                <td class="px-6 py-4 font-mono font-bold text-green-600">TR005</td>
+                                <td class="px-6 py-4">
+                                    <div class="font-semibold">Mentorship 1-1 với DC7</div>
+                                    <div class="text-sm text-gray-600 mt-1">10 buổi mentoring cá nhân, review trade thực tế, tư vấn phát triển sự nghiệp, xây dựng trading plan</div>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="price-tag text-white px-3 py-1 rounded-full text-sm font-semibold">20,000,000</span>
+                                </td>
+                                <td class="px-6 py-4 text-center">20 giờ</td>
+                                <td class="px-6 py-4 text-center">
+                                    <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm">TR004</span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <ul class="text-sm space-y-1">
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Review chi tiết 100+ trade thực tế</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Trading plan cá nhân hoàn chỉnh</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Lộ trình phát triển sự nghiệp rõ ràng</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Kết nối cộng đồng trader chuyên nghiệp</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- KHỐI 4: CHUYÊN NGÀNH CAPITAL MANAGEMENT -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-gradient-to-r from-orange-600 to-orange-800 text-white p-6">
+                    <h2 class="text-2xl font-bold flex items-center">
+                        <i class="fas fa-briefcase mr-3"></i>
+                        KHỐI 4: CHUYÊN NGÀNH CAPITAL MANAGEMENT
+                    </h2>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full">
+                        <thead class="bg-gray-100">
+                            <tr class="text-left">
+                                <th class="px-6 py-4 font-semibold text-gray-700">Mã HP</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Tên Học Phần</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Giá (VNĐ)</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Thời lượng</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Điều kiện tiên quyết</th>
+                                <th class="px-6 py-4 font-semibold text-gray-700">Define of Done</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="module-row border-b">
+                                <td class="px-6 py-4 font-mono font-bold text-orange-600">CM001</td>
+                                <td class="px-6 py-4">
+                                    <div class="font-semibold">Quản trị vốn tổ chức</div>
+                                    <div class="text-sm text-gray-600 mt-1">Phân bổ vốn, tái cấp daily, MDL monitoring, báo cáo P&L, risk management tổ chức</div>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="price-tag text-white px-3 py-1 rounded-full text-sm font-semibold">15,000,000</span>
+                                </td>
+                                <td class="px-6 py-4 text-center">35 giờ</td>
+                                <td class="px-6 py-4 text-center">
+                                    <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm">AT002, AT003</span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <ul class="text-sm space-y-1">
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Thiết lập được hệ thống quản trị vốn</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Tính toán tái cấp vốn tối ưu</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Monitoring real-time MDL</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Báo cáo P&L chuyên nghiệp</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="module-row border-b">
+                                <td class="px-6 py-4 font-mono font-bold text-orange-600">CM002</td>
+                                <td class="px-6 py-4">
+                                    <div class="font-semibold">Xây dựng đội ngũ Trader</div>
+                                    <div class="text-sm text-gray-600 mt-1">Tuyển dụng trader, đào tạo, đánh giá hiệu suất, phân cấp TE1-TE7, thăng hạng, sa thải</div>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="price-tag text-white px-3 py-1 rounded-full text-sm font-semibold">12,000,000</span>
+                                </td>
+                                <td class="px-6 py-4 text-center">30 giờ</td>
+                                <td class="px-6 py-4 text-center">
+                                    <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm">CM001</span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <ul class="text-sm space-y-1">
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Quy trình tuyển dụng trader hiệu quả</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Chương trình đào tạo từ TE1-TE7</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Hệ thống đánh giá khách quan</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Quản lý được team 10-20 trader</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="module-row border-b">
+                                <td class="px-6 py-4 font-mono font-bold text-orange-600">CM003</td>
+                                <td class="px-6 py-4">
+                                    <div class="font-semibold">Hệ thống giám sát & KPI</div>
+                                    <div class="text-sm text-gray-600 mt-1">Dashboard theo dõi, KPI trader, sharp ratio, drawdown analysis, performance report</div>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="price-tag text-white px-3 py-1 rounded-full text-sm font-semibold">10,000,000</span>
+                                </td>
+                                <td class="px-6 py-4 text-center">25 giờ</td>
+                                <td class="px-6 py-4 text-center">
+                                    <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm">CM002</span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <ul class="text-sm space-y-1">
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Dashboard giám sát realtime</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Báo cáo KPI tự động</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Phân tích drawdown chuyên sâu</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Hệ thống cảnh báo rủi ro</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="module-row border-b">
+                                <td class="px-6 py-4 font-mono font-bold text-orange-600">CM004</td>
+                                <td class="px-6 py-4">
+                                    <div class="font-semibold">Scaling & Tối ưu hóa quỹ</div>
+                                    <div class="text-sm text-gray-600 mt-1">Scale từ $10K đến $1M+, diversification, multiple markets, fund management advanced</div>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="price-tag text-white px-3 py-1 rounded-full text-sm font-semibold">18,000,000</span>
+                                </td>
+                                <td class="px-6 py-4 text-center">40 giờ</td>
+                                <td class="px-6 py-4 text-center">
+                                    <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm">CM003</span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <ul class="text-sm space-y-1">
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Kế hoạch scale vốn có hệ thống</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Đa dạng hóa thị trường hiệu quả</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Quản lý được quỹ $1M+</li>
+                                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>ROI ổn định 15-25%/năm</li>
+                                    </ul>
+                                </td>
+            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- COMBO PACKAGES -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <h2 class="text-2xl font-bold text-gray-800 mb-8 flex items-center">
+                    <i class="fas fa-gift mr-3 text-red-600"></i>
+                    COMBO PACKAGES - GIÁ ƯU ĐÃI
+                </h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div class="combo-card rounded-lg p-6 border border-gray-200">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-gray-800">Foundation Complete</h3>
+                            <div class="text-right">
+                                <div class="text-sm text-gray-500 line-through">10,000,000 VNĐ</div>
+                                <div class="text-2xl font-bold text-green-600">8,500,000 VNĐ</div>
+                                <div class="text-sm text-green-600 font-semibold">Tiết kiệm 1,500,000</div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">Nền tảng hoàn chỉnh cho người mới</p>
+                        <div class="text-sm text-gray-600">
+                            <strong>Bao gồm:</strong> FT001 + FT002 + FT003 + FT004
+                        </div>
+                    </div>
+
+                    <div class="combo-card rounded-lg p-6 border border-gray-200">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-gray-800">Trader Professional</h3>
+                            <div class="text-right">
+                                <div class="text-sm text-gray-500 line-through">66,000,000 VNĐ</div>
+                                <div class="text-2xl font-bold text-green-600">52,000,000 VNĐ</div>
+                                <div class="text-sm text-green-600 font-semibold">Tiết kiệm 14,000,000</div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">Trở thành trader chuyên nghiệp</p>
+                        <div class="text-sm text-gray-600">
+                            <strong>Bao gồm:</strong> Foundation + AT001→AT003 + TR001→TR004
+                        </div>
+                    </div>
+
+                    <div class="combo-card rounded-lg p-6 border border-gray-200">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-gray-800">Trader Master</h3>
+                            <div class="text-right">
+                                <div class="text-sm text-gray-500 line-through">86,000,000 VNĐ</div>
+                                <div class="text-2xl font-bold text-green-600">65,000,000 VNĐ</div>
+                                <div class="text-sm text-green-600 font-semibold">Tiết kiệm 21,000,000</div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">Trader master với mentoring</p>
+                        <div class="text-sm text-gray-600">
+                            <strong>Bao gồm:</strong> Trader Professional + TR005
+                        </div>
+                    </div>
+
+                    <div class="combo-card rounded-lg p-6 border border-gray-200">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-gray-800">Capital Manager Pro</h3>
+                            <div class="text-right">
+                                <div class="text-sm text-gray-500 line-through">73,500,000 VNĐ</div>
+                                <div class="text-2xl font-bold text-green-600">58,000,000 VNĐ</div>
+                                <div class="text-sm text-green-600 font-semibold">Tiết kiệm 15,500,000</div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">Quản lý vốn chuyên nghiệp</p>
+                        <div class="text-sm text-gray-600">
+                            <strong>Bao gồm:</strong> Foundation + AT002→AT003 + CM001→CM004
+                        </div>
+                    </div>
+
+                    <div class="col-span-full">
+                        <div class="bg-gradient-to-r from-yellow-400 to-yellow-600 rounded-lg p-6 text-center">
+                            <h3 class="text-2xl font-bold text-white mb-2">Ultimate Package</h3>
+                            <div class="flex justify-center items-center space-x-4 mb-4">
+                                <div class="text-lg text-yellow-100 line-through">101,000,000 VNĐ</div>
+                                <div class="text-4xl font-bold text-white">75,000,000 VNĐ</div>
+                            </div>
+                            <div class="text-xl text-yellow-100 font-semibold mb-4">Tiết kiệm 26,000,000 VNĐ</div>
+                            <p class="text-yellow-100">Toàn bộ chương trình - Giá trị tốt nhất</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- QUY TẮC HỌC TẬP -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
+                    <i class="fas fa-clipboard-list mr-3 text-blue-600"></i>
+                    QUY TẮC HỌC TẬP & ĐIỀU KIỆN
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-4">Quy tắc tiên quyết</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                                <span>Hoàn thành học phần tiên quyết với điểm >80%</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                                <span>Test đầu vào và cuối khóa cho mỗi học phần</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                                <span>70% thời gian thực hành, 30% lý thuyết</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-4">Hỗ trợ học tập</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-users text-blue-500 mr-3 mt-1"></i>
+                                <span>Telegram group riêng cho từng học phần</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-file-alt text-blue-500 mr-3 mt-1"></i>
+                                <span>Slide, video, tool, template đầy đủ</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-headset text-blue-500 mr-3 mt-1"></i>
+                                <span>Hỗ trợ 24/7 trong suốt quá trình học</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-8 p-4 bg-yellow-50 border-l-4 border-yellow-400">
+                    <p class="text-yellow-800">
+                        <i class="fas fa-info-circle mr-2"></i>
+                        <strong>Lưu ý:</strong> Tất cả giá trên đã bao gồm tài liệu, công cụ, và hỗ trợ trong suốt quá trình học.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="mb-12">
+            <div class="bg-gray-800 text-white rounded-lg p-8 text-center">
+                <h2 class="text-2xl font-bold mb-4">Liên hệ tư vấn</h2>
+                <p class="text-gray-300 mb-6">Đăng ký ngay để nhận tư vấn miễn phí về lộ trình học phù hợp</p>
+                <div class="flex justify-center space-x-6">
+                    <div class="flex items-center">
+                        <i class="fas fa-phone mr-2 text-green-400"></i>
+                        <span>Hotline: 0123-456-789</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-envelope mr-2 text-blue-400"></i>
+                        <span>dc7program@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-gray-400">© 2024 The Richness Trader Academy. Tất cả quyền được bảo lưu.</p>
+            <p class="text-gray-400 mt-2">Đầu tư có rủi ro. Hãy cân nhắc kỹ trước khi đưa ra quyết định đầu tư.</p>
+        </div>
+    </footer>
+</body>
+</html>
